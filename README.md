@@ -4,8 +4,11 @@ System Docker for RancherOS
 ## Running
 
 ```
+go get github.com/boy12371/trash
 make prepare
 make release
+vi ./components/cli/dockerfiles/Dockerfile.dev
+FROM    golang:1.10.2-alpine
 ```
 
 ## License
